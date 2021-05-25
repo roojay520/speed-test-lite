@@ -1,0 +1,25 @@
+{
+  "name": "speed-test-lite",
+  "version": "0.0.1",
+  "description": "Speedtest server",
+  "main": "src/server.js",
+  "repository": "https://github.com/roojay520/speed-test-lite",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "serve": "node src/server.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "cors": "^2.8.5",
+    "gps-distance": "^0.0.4",
+    "random-bytes": "^1.0.0",
+    "request": "^2.88.2"
+  },
+  "pkg": {
+    "assets": [
+      "src/public/**/*"
+    ]
+  },
+  "bin": "src/server.js"
+}
