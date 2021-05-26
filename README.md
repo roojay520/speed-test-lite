@@ -8,6 +8,10 @@ This is a nodeJS Port from the original PHP-based [LibreSpeed](https://github.co
 2. `yarn install`
 3. `yarn run serve`
 
+## Preview
+
+![预览](img/preview.png)
+
 ## License
 
 Copyright (C) 2019 dunklesToast
